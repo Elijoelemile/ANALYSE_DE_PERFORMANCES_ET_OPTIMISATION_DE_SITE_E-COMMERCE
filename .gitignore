@@ -20,8 +20,13 @@ Thumbs.db
 data/raw/
 *.csv
 *.xlsx
+
 # Données transformées volumineuses
 data/transformed/
+*.csv
+
+# Données chargées volumineuses
+data/loaded/
 *.csv
 
 # Config personnelle VS Code

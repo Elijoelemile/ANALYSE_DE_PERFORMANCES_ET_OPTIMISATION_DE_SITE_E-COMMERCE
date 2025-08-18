@@ -1,11 +1,11 @@
 import os
 import pandas as pd
 
-# 📂 Dossiers source (raw) et destination (transformed)
+# Dossiers source (raw) et destination (transformed)
 RAW_DIR = r"C:\Users\Эли Жоэль\ANALYSE_DE_PERFORMANCES_ET_OPTIMISATION_DE_SITE_E-COMMERCE\data\raw"
 TRANSFORMED_DIR = r"C:\Users\Эли Жоэль\ANALYSE_DE_PERFORMANCES_ET_OPTIMISATION_DE_SITE_E-COMMERCE\data\transformed"
 
-# ✅ Création du dossier de sortie s'il n'existe pas
+# Création du dossier de sortie s'il n'existe pas
 os.makedirs(TRANSFORMED_DIR, exist_ok=True)
 
 def transformer_dataframe(data: pd.DataFrame) -> pd.DataFrame:
