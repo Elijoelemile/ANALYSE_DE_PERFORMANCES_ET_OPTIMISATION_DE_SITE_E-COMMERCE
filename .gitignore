@@ -28,3 +28,6 @@ data/loaded/
 
 # Config personnelle VS Code
 .vscode/v
+
+# Ignorer le fichier requirements.txt
+/requirements.txt
