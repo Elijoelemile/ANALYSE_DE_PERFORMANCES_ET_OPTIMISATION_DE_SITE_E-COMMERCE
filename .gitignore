@@ -9,9 +9,6 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Notebooks checkpoints
-.ipynb_checkpoints/
-
 # Fichiers système
 .DS_Store
 Thumbs.db
